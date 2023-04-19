@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-/* font-family: 'Red Hat Display', sans-serif; */
-
 
 :root {
     --Pale-blue: hsl(225, 100%, 94%);
@@ -40,6 +38,9 @@ main {
     max-width: 360px;
     height: 540px;
     font-family: 'Red Hat Display', sans-serif;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    box-shadow: 5px 12px 32px 2px rgb(177, 175, 175);
 }
 
 .content-body {
@@ -70,7 +71,7 @@ p {
     text-align: center;
 }
 
-h3 {
+h2 {
     font-size: 0.88rem;
     font-weight: 700;
 }
@@ -139,6 +140,7 @@ h3 {
 }
 
 .proceedBtn button{
+    box-shadow: 5px 12px 32px 2px rgba(116, 136, 224, 0.575);
    color: white;
    background-color: var(--Bright-blue);
    border: none;
